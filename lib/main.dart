@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // Returning Widgets
     return MaterialApp(
-      title: "Nebwin Tech Website",
+      title: "Nebwin Tech",
       debugShowCheckedModeBanner: false,
       initialRoute: Routes.initialRoute,
       routes: Routes.routes,
