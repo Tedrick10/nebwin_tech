@@ -48,7 +48,7 @@ class UnderConstructionPage extends StatelessWidget {
                 child: Column(
                   children: [
                     Image.asset(
-                      "assets/images/nebwin_logo_white.png",
+                      "assets/images/under_construction/nebwin_logo_white.png",
                       width: 200.0,
                       height: 150,
                     ),
