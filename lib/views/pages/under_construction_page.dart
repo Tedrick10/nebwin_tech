@@ -5,17 +5,18 @@ import 'package:flutter/material.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 
 // Widgets
-import '../widgets/common/footer_widget.dart';
+import '../widgets/footer_widget.dart';
+
+// Constants
+import '../../constants/colors_constant.dart';
 
 // UnderConstructionPage: StatelessWidget Class
 class UnderConstructionPage extends StatelessWidget {
   // Static: Class Properties
-  // static const String routeName = "/under-construction";
-  static const String routeName = "/";
+  static const String routeName = "/under-construction";
 
   // Final: Class Properties
   final String title = "Nebwin Tech\nUnder Construction!";
-  final Color backgroundColor = const Color.fromRGBO(68, 150, 200, 1);
   final Color textColor = Colors.white;
 
   // Constructor
@@ -41,8 +42,8 @@ class UnderConstructionPage extends StatelessWidget {
                         ? height - 100
                         : height - 220,
                 alignment: Alignment.center,
-                decoration: BoxDecoration(
-                  color: backgroundColor,
+                decoration: const BoxDecoration(
+                  color: ColorsConstant.primaryColor,
                 ),
                 child: Column(
                   children: [
@@ -54,7 +55,7 @@ class UnderConstructionPage extends StatelessWidget {
                     TextLiquidFill(
                       text: title,
                       waveColor: textColor,
-                      boxBackgroundColor: backgroundColor,
+                      boxBackgroundColor: ColorsConstant.primaryColor,
                       textStyle: TextStyle(
                         fontSize: (width < 600) ? 40.0 : 80.0,
                         fontWeight: FontWeight.bold,
@@ -67,7 +68,7 @@ class UnderConstructionPage extends StatelessWidget {
                 ),
               ),
               FooterWidget(
-                backgroundColor: backgroundColor,
+                backgroundColor: ColorsConstant.primaryColor,
                 textColor: textColor,
               ),
             ],
