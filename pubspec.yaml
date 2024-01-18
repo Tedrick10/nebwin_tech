@@ -41,6 +41,7 @@ dependencies:
   animated_text_kit: ^4.2.2
   font_awesome_flutter: ^10.6.0
   url_launcher:
+  google_fonts: ^6.1.0
 
 dev_dependencies:
   flutter_test:
@@ -66,7 +67,15 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/under_construction/
+    - assets/images/page_01/
     - assets/images/page_02/
+    - assets/images/page_03/
+    - assets/images/page_04/
+    - assets/images/page_06/
+    - assets/images/page_07/
+    - assets/images/page_08/
+    - assets/images/page_09/
+    - assets/images/page_10/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

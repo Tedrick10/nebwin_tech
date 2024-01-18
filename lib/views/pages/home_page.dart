@@ -25,20 +25,20 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // Returning Widgets
-    return const SafeArea(
+    return SafeArea(
       child: SingleChildScrollView(
         child: Column(
           children: [
-            WelcomeWidget(),
-            AboutUsWidget(),
+            const WelcomeWidget(),
+            const AboutUsWidget(),
             ClientWhoTrustUsWidget(),
             WhyChooseNebwinTechWidget(),
-            ServicesWeOfferWidget(),
-            LogofolioWidget(),
-            OurCreativeDesignsWidget(),
-            OurEventDesignsWidget(),
-            OurClientsWidget(),
-            MarkYourMarkWidget(),
+            const ServicesWeOfferWidget(),
+            const LogofolioWidget(),
+            const OurCreativeDesignsWidget(),
+            const OurEventDesignsWidget(),
+            const OurClientsWidget(),
+            const MarkYourMarkWidget(),
           ],
         ),
       ),
